@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_LkKQwHhgEeucGrD8pTQm6g" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0YJcHhiEeucGrD8pTQm6g" source="PapyrusCSSForceValue">
+    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0YwgHhiEeucGrD8pTQm6g" key="canonical" value="true"/>
+  </eAnnotations>
+  <children xmi:type="notation:Shape" xmi:id="_c8Ov0HhgEeucGrD8pTQm6g" type="DataType_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_c8RzIHhgEeucGrD8pTQm6g" type="DataType_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_c8RzIXhgEeucGrD8pTQm6g" type="DataType_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_c8SaMHhgEeucGrD8pTQm6g" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_c8SaMXhgEeucGrD8pTQm6g" type="DataType_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_c8SaMnhgEeucGrD8pTQm6g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_c8SaM3hgEeucGrD8pTQm6g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_c8SaNHhgEeucGrD8pTQm6g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c8SaNXhgEeucGrD8pTQm6g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_c8TBQHhgEeucGrD8pTQm6g" type="DataType_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_c8TBQXhgEeucGrD8pTQm6g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_c8TBQnhgEeucGrD8pTQm6g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_c8TBQ3hgEeucGrD8pTQm6g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c8TBRHhgEeucGrD8pTQm6g"/>
+    </children>
+    <element xmi:type="uml:DataType" href="Prcatica2UML.uml#_c8AGUHhgEeucGrD8pTQm6g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c8Ov0XhgEeucGrD8pTQm6g" x="777" y="220" width="210" height="141"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_hYlmYHhgEeucGrD8pTQm6g" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hYoCoHhgEeucGrD8pTQm6g" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_hYoCoXhgEeucGrD8pTQm6g" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_zGmq0HhhEeucGrD8pTQm6g" type="Class_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zGnR4HhhEeucGrD8pTQm6g" type="Class_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_zGn48HhhEeucGrD8pTQm6g" type="Class_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zGn48XhhEeucGrD8pTQm6g" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_zGn48nhhEeucGrD8pTQm6g" type="Class_AttributeCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_2s74UHhhEeucGrD8pTQm6g" type="Property_ClassAttributeLabel" gradient="8421504, 16777215, 0">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hL_p8HhiEeucGrD8pTQm6g" source="PapyrusCSSForceValue">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hL_p8XhiEeucGrD8pTQm6g" key="gradient" value="true"/>
+            </eAnnotations>
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_kg23gHhjEeucGrD8pTQm6g" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="Prcatica2UML.uml#_2sl6EHhhEeucGrD8pTQm6g"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2s74UXhhEeucGrD8pTQm6g"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_masuAHhjEeucGrD8pTQm6g" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_5fgbsHhjEeucGrD8pTQm6g" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="Prcatica2UML.uml#_mahu4HhjEeucGrD8pTQm6g"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_masuAXhjEeucGrD8pTQm6g"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_6dgVAHhjEeucGrD8pTQm6g" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_BPzIMHhkEeucGrD8pTQm6g" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="Prcatica2UML.uml#_6dV88HhjEeucGrD8pTQm6g"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_6dgVAXhjEeucGrD8pTQm6g"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_PnsEgHq5EeufGLUMSiJBNg" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_3rFE8Hq5EeufGLUMSiJBNg" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="Prcatica2UML.uml#_PmTkcHq5EeufGLUMSiJBNg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_PnsEgXq5EeufGLUMSiJBNg"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_5CeVsHq5EeufGLUMSiJBNg" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="__ZNOQHq5EeufGLUMSiJBNg" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="Prcatica2UML.uml#_5CNP8Hq5EeufGLUMSiJBNg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_5CeVsXq5EeufGLUMSiJBNg"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_zGn483hhEeucGrD8pTQm6g"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_zGn49HhhEeucGrD8pTQm6g"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_zGn49XhhEeucGrD8pTQm6g"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zGn49nhhEeucGrD8pTQm6g"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_zGogAHhhEeucGrD8pTQm6g" type="Class_OperationCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_ZM92gHhlEeucGrD8pTQm6g" type="Operation_ClassOperationLabel">
+            <element xmi:type="uml:Operation" href="Prcatica2UML.uml#_ZMkN4HhlEeucGrD8pTQm6g"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ZM92gXhlEeucGrD8pTQm6g"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_c3jQsHq8EeufGLUMSiJBNg" type="Operation_ClassOperationLabel">
+            <element xmi:type="uml:Operation" href="Prcatica2UML.uml#_c3UnMHq8EeufGLUMSiJBNg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_c3jQsXq8EeufGLUMSiJBNg"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_zGogAXhhEeucGrD8pTQm6g"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_zGogAnhhEeucGrD8pTQm6g"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_zGogA3hhEeucGrD8pTQm6g"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zGogBHhhEeucGrD8pTQm6g"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_zGogBXhhEeucGrD8pTQm6g" type="Class_NestedClassifierCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_zGogBnhhEeucGrD8pTQm6g"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_zGogB3hhEeucGrD8pTQm6g"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_zGogCHhhEeucGrD8pTQm6g"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zGogCXhhEeucGrD8pTQm6g"/>
+        </children>
+        <element xmi:type="uml:Class" href="Prcatica2UML.uml#_zGiZYHhhEeucGrD8pTQm6g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zGmq0XhhEeucGrD8pTQm6g" x="34" y="28" width="341" height="241"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_hYoConhgEeucGrD8pTQm6g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hYoCo3hgEeucGrD8pTQm6g"/>
+    </children>
+    <element xmi:type="uml:Package" href="Prcatica2UML.uml#_hYhU8HhgEeucGrD8pTQm6g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hYlmYXhgEeucGrD8pTQm6g" x="220" y="100" width="541" height="381"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_LkKQwXhgEeucGrD8pTQm6g" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_LkKQwnhgEeucGrD8pTQm6g"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_LkKQw3hgEeucGrD8pTQm6g" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="Prcatica2UML.uml#_LjmQEHhgEeucGrD8pTQm6g"/>
+  </styles>
+  <styles xmi:type="notation:CanonicalStyle" xmi:id="_c0XiYHhiEeucGrD8pTQm6g" canonical="false"/>
+  <styles xmi:type="notation:DoubleValueStyle" xmi:id="_rwBpYHhiEeucGrD8pTQm6g" name="rulergrid.gridspacing" doubleValue="20.0"/>
+  <element xmi:type="uml:Model" href="Prcatica2UML.uml#_LjmQEHhgEeucGrD8pTQm6g"/>
+</notation:Diagram>
