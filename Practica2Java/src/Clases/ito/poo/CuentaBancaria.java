@@ -4,6 +4,7 @@
 package Clases.ito.poo;
 
 import java.time.LocalDate;
+
 import java.util.HashSet;
 // Start of user code (user defined imports)
 
@@ -29,7 +30,7 @@ public class CuentaBancaria {
 	/**
 	 * Description of the property saldo.
 	 */
-	private float saldo = 0F;
+	private float saldo = 0;
 
 	/**
 	 * Description of the property fechaApertura.
@@ -40,6 +41,10 @@ public class CuentaBancaria {
 	 * Description of the property fechaActualizacion.
 	 */
 	private LocalDate fechaActualizacion = null;
+
+	public boolean Saldo;
+
+	public boolean cantidad;
 
 	// Start of user code (user defined attributes for CuentaBancaria)
 
@@ -54,35 +59,34 @@ public class CuentaBancaria {
 		// End of user code
 	}
 
-	public CuentaBancaria(long numCuenta, String nomCliente, float saldo, LocalDate fechaApertura) {
+	public CuentaBancaria(long numCuenta, String nomCliente, float saldo, LocalDate fechaApertura, LocalDate fechaActualizacion) {
 		super();
 		this.numCuenta = numCuenta;
 		this.nomCliente = nomCliente;
 		this.saldo = saldo;
 		this.fechaApertura = fechaApertura;
+		this.fechaActualizacion = fechaActualizacion;
 	}
-		
+	
 	/**
 	 * Description of the method deposito.
 	 * @param cantidad 
-	 * @return 
 	 */
-	private boolean deposito(float cantidad) {
+	private void deposito(float cantidad) {
 		// Start of user code for method deposito
-		boolean deposito = false;
-		return deposito;
+		this.saldo= saldo + cantidad;
 		// End of user code
 	}
-
+	
 	/**
 	 * Description of the method retiro.
 	 * @param cantidad 
 	 * @return 
 	 */
-	private boolean retiro(float cantidad) {
+	private void retiro(float cantidad) {
 		// Start of user code for method retiro
-		boolean retiro = false;
-		return retiro;
+		this.saldo= saldo - cantidad;
+		
 		// End of user code
 	}
 

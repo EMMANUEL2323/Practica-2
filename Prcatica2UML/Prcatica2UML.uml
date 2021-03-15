@@ -20,7 +20,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mv2S4Hq5EeufGLUMSiJBNg" value="*"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_5CNP8Hq5EeufGLUMSiJBNg" name="fechaActualizacion" visibility="private" type="_c8AGUHhgEeucGrD8pTQm6g"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_ZMkN4HhlEeucGrD8pTQm6g" name="deposito" visibility="private">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ZMkN4HhlEeucGrD8pTQm6g" name="deposito" visibility="public">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_Slg1oHq7EeufGLUMSiJBNg" name="cantidad" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
         </ownedParameter>
@@ -28,7 +28,7 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_c3UnMHq8EeufGLUMSiJBNg" name="retiro" visibility="private">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_c3UnMHq8EeufGLUMSiJBNg" name="retiro" visibility="public">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_l9s84Hq8EeufGLUMSiJBNg" name="cantidad">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
         </ownedParameter>
