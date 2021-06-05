@@ -1,97 +1,51 @@
-/*******************************************************************************
- * 2021, All rights reserved.
- *******************************************************************************/
 package Clases.ito.poo;
 
 import java.time.LocalDate;
 
-import java.util.HashSet;
-// Start of user code (user defined imports)
+import javax.swing.JOptionPane;;
 
-// End of user code
+public class CuentaBancaria implements Comparable<CuentaBancaria>{
 
-/**
- * Description of CuentaBancaria.
- * 
- * @author emman
- */
-public class CuentaBancaria {
-
-	/**
-	 * Description of the property numCuenta.
-	 */
 	private long numCuenta = 0L;
-
-	/**
-	 * Description of the property nomCliente.
-	 */
 	private String nomCliente = "";
-
-	/**
-	 * Description of the property saldo.
-	 */
-	private float saldo = 0;
-
-	/**
-	 * Description of the property fechaApertura.
-	 */
-	private LocalDate fechaApertura = null;
-
-	/**
-	 * Description of the property fechaActualizacion.
-	 */
-	private LocalDate fechaActualizacion = null;
-
-	public boolean Saldo;
-
-	public boolean cantidad;
-
-	// Start of user code (user defined attributes for CuentaBancaria)
-
-	// End of user code
-
-	/**
-	 * The constructor.
-	 */
-	public CuentaBancaria() {
-		// Start of user code constructor for CuentaBancaria)
-		super();
-		// End of user code
-	}
-
-	public CuentaBancaria(long numCuenta, String nomCliente, float saldo, LocalDate fechaApertura, LocalDate fechaActualizacion) {
+	private float saldo = 0F;
+	private java.time.LocalDate fechaApertura = null;
+	private java.time.LocalDate fechaActualizacicon = null;
+	
+	public CuentaBancaria(long numCuenta, String nomCliente, float saldo, LocalDate fechaApertura,
+			LocalDate fechaActualizacicon) {
 		super();
 		this.numCuenta = numCuenta;
 		this.nomCliente = nomCliente;
 		this.saldo = saldo;
 		this.fechaApertura = fechaApertura;
-		this.fechaActualizacion = fechaActualizacion;
+		this.fechaActualizacicon = fechaActualizacicon;
 	}
-	
-	/**
-	 * Description of the method deposito.
-	 * @param cantidad 
-	 */
-	private void deposito(float cantidad) {
-		// Start of user code for method deposito
-		this.saldo= saldo + cantidad;
-		// End of user code
+	public CuentaBancaria() {
+		// TODO Auto-generated constructor stub
 	}
-	
-	/**
-	 * Description of the method retiro.
-	 * @param cantidad 
-	 * @return 
-	 */
-	private void retiro(float cantidad) {
-		// Start of user code for method retiro
-		this.saldo= saldo - cantidad;
-		
-		// End of user code
+	public boolean retiroR(float cantidad) {
+		boolean retiro = false;
+		if (this.saldo >= cantidad) {
+			this.saldo -= cantidad;
+			retiro = true;
+			this.fechaActualizacicon = LocalDate.now();
+		}
+		return retiro;
 	}
 
+	public boolean depositoD(float cantidad) {
+		boolean deposito= false;
+		if (this.saldo >= cantidad) {
+			this.saldo += cantidad;
+			deposito= true;
+			this.fechaActualizacicon = LocalDate.now();
+		}
+		return deposito;
+	}
+	 
 	// Start of user code (user defined methods for CuentaBancaria)
-
+	
 	// End of user code
 	/**
 	 * Returns numCuenta.
@@ -100,13 +54,13 @@ public class CuentaBancaria {
 	public long getNumCuenta() {
 		return this.numCuenta;
 	}
-
+	
 	/**
 	 * Sets a value to attribute numCuenta. 
 	 * @param newNumCuenta 
 	 */
 	public void setNumCuenta(long newNumCuenta) {
-		this.numCuenta = newNumCuenta;
+	    this.numCuenta = newNumCuenta;
 	}
 
 	/**
@@ -116,13 +70,13 @@ public class CuentaBancaria {
 	public String getNomCliente() {
 		return this.nomCliente;
 	}
-
+	
 	/**
 	 * Sets a value to attribute nomCliente. 
 	 * @param newNomCliente 
 	 */
 	public void setNomCliente(String newNomCliente) {
-		this.nomCliente = newNomCliente;
+	    this.nomCliente = newNomCliente;
 	}
 
 	/**
@@ -132,43 +86,62 @@ public class CuentaBancaria {
 	public float getSaldo() {
 		return this.saldo;
 	}
-
+	
 	/**
 	 * Sets a value to attribute saldo. 
 	 * @param newSaldo 
 	 */
 	public void setSaldo(float newSaldo) {
-		this.saldo = newSaldo;
+	    this.saldo = newSaldo;
 	}
 
 	/**
 	 * Returns fechaApertura.
 	 * @return fechaApertura 
 	 */
-	public LocalDate getFechaApertura() {
+	public java.time.LocalDate getFechaApertura() {
 		return this.fechaApertura;
 	}
-
+	
 	/**
-	 * Returns fechaActualizacion.
-	 * @return fechaActualizacion 
+	 * Sets a value to attribute fechaApertura. 
+	 * @param newFechaApertura 
 	 */
-	public LocalDate getFechaActualizacion() {
-		return this.fechaActualizacion;
+	public void setFechaApertura(java.time.LocalDate newFechaApertura) {
+	    this.fechaApertura = newFechaApertura;
 	}
 
 	/**
-	 * Sets a value to attribute fechaActualizacion. 
-	 * @param newFechaActualizacion 
+	 * Returns fechaActualizacicon.
+	 * @return fechaActualizacicon 
 	 */
-	public void setFechaActualizacion(LocalDate newFechaActualizacion) {
-		this.fechaActualizacion = newFechaActualizacion;
+	public java.time.LocalDate getFechaActualizacicon() {
+		return this.fechaActualizacicon;
 	}
+	
+	/**
+	 * Sets a value to attribute fechaActualizacicon. 
+	 * @param newFechaActualizacicon 
+	 */
+	public void setFechaActualizacicon(java.time.LocalDate newFechaActualizacicon) {
+	    this.fechaActualizacicon = newFechaActualizacicon;
+	}
+	
 
 	@Override
 	public String toString() {
 		return "CuentaBancaria [numCuenta=" + numCuenta + ", nomCliente=" + nomCliente + ", saldo=" + saldo
-				+ ", fechaApertura=" + fechaApertura + ", fechaActualizacion=" + fechaActualizacion + "]";
+				+ ", fechaApertura=" + fechaApertura + ", fechaActualizacicon=" + fechaActualizacicon + "]";
+	}
+
+	public int compareTo(CuentaBancaria o) {
+		// TODO Auto-generated method stub
+		int compare=0;
+		if(this.numCuenta<o.getNumCuenta())
+			compare=-1;
+		else if(this.numCuenta>o.getNumCuenta())
+			compare=1;
+		return compare;
 	}
 
 }
